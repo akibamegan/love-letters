@@ -1,32 +1,50 @@
 h2{
+	display: inline-block;
 	overflow: hidden;
+	border-right: .15em solid black;
 	white-space: nowrap;
 	margin: 0 auto;
 	animation: 
-	typing 10s steps(30, end)
+	typing 3s steps(40, end),
+	blink-caret .75s step-end infinite;
+	padding-top: 10px;
 }
+
 @keyframes typing{
 	from { width: 0 }
-	to { width: 100% }
+	to { width: 15%; }
+}
+
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: black; }
 }
 
 header{
+	padding-top: 20px;
 	font-family: Helvetica Neue;
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0;
+	transition: .5s;
+	text-decoration: none;
+	font-size: 150%;
 }
 
 nav{
-	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
 }
 
 nav a{
-	transition: 1s;
 	text-decoration: none;
-	font-size: 150%;
-	border-style: solid;
-	padding: 20px 40px 20px 40px;
-	border-radius: 10px;
+}
+
+#emailhead{
+	border-bottom: dotted;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 #home:visted, #git:visited, #github:visited{
@@ -39,10 +57,14 @@ nav a{
 }
 
 main{
+	margin-left: 60px;
+	margin-right: 60px;
 	font-family: courier;
 	border-style: solid;
-	margin: 60px;
-	padding: 40px;
+	margin-top: 10px;
+	padding: 30px;
+	border-radius: 10px;
+	background: white;
 }
 
 #end{
