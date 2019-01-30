@@ -2,11 +2,49 @@ h2{
 	overflow: hidden;
 	white-space: nowrap;
 	margin: 0 auto;
-	letter-spacing: .15em;
 	animation: 
-	typing 5s steps(30, end)
+	typing 10s steps(30, end)
 }
 @keyframes typing{
 	from { width: 0 }
 	to { width: 100% }
+}
+
+header{
+	font-family: Helvetica Neue;
+	text-align: center;
+	padding-top: 20px;
+}
+
+nav{
+	padding-top: 20px;
+}
+
+nav a{
+	transition: 1s;
+	text-decoration: none;
+	font-size: 150%;
+	border-style: solid;
+	padding: 20px 40px 20px 40px;
+	border-radius: 10px;
+}
+
+#home:visted, #git:visited, #github:visited{
+	color: black;
+}
+
+#home:hover, #git:hover, #github:hover{
+	color: #ebd7fa;
+	border-radius: 50px;
+}
+
+main{
+	font-family: courier;
+	border-style: solid;
+	margin: 60px;
+	padding: 40px;
+}
+
+#end{
+	font-size: 140%;
 }

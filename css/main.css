@@ -22,13 +22,13 @@ nav{
 	border: 2px black;
 	border-style: solid;
 	padding: 75px;
-	border-radius: 500px;
+	border-radius: 40px;
 	background: black;
 	color: white;
 }
 
 nav a{
-	transition: 1s;
+	transition: .5s;
 	text-decoration: none;
 	margin: 40px;
 	color: black;
@@ -41,7 +41,7 @@ nav a{
 
 #bash:hover, #git:hover, #github:hover{
 	color: #ebd7fa;
-	border-radius: 40px;
+	border-radius: 500px;
 }
 
 footer a{

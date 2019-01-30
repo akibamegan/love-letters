@@ -1,1 +1,27 @@
-git.css
+header{
+	font-family: Helvetica Neue;
+	text-align: center;
+	padding-top: 20px;
+}
+
+nav{
+	padding-top: 20px;
+}
+
+nav a{
+	transition: 1s;
+	text-decoration: none;
+	font-size: 150%;
+	border-style: solid;
+	padding: 20px 40px 20px 40px;
+	border-radius: 10px;
+}
+
+#home:visted, #git:visited, #github:visited{
+	color: black;
+}
+
+#home:hover, #git:hover, #github:hover{
+	color: #ebd7fa;
+	border-radius: 50px;
+}
