@@ -1,1 +1,61 @@
-main.css
+body{
+	background: pink;
+}
+h1{
+	text-align: center;
+	padding: 150px 0;
+	border: 3px white;
+	font-family: Helvetica Neue;
+	font-size: 300%;
+	border-style: solid;
+	border-radius: 200px;
+	background: white;
+}
+
+nav{
+	text-align: center;
+	padding: 100px;
+	font-family: Helvetica Neue;
+}
+
+#bash, #git, #github{
+	border: 2px black;
+	border-style: solid;
+	padding: 75px;
+	border-radius: 500px;
+	background: black;
+	color: white;
+}
+
+nav a{
+	transition: 1s;
+	text-decoration: none;
+	margin: 40px;
+	color: black;
+	font-size: 270%;
+}
+
+#bash:visted, #git:visited, #github:visited, footer a:visited{
+	color: white;
+}
+
+#bash:hover, #git:hover, #github:hover{
+	color: #ebd7fa;
+	border-radius: 40px;
+}
+
+footer a{
+	font-family: Helvetica Neue;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: yellow;
+}
+
+
+
+
+
+
+
