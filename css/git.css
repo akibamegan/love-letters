@@ -1,6 +1,6 @@
 header{
 	padding-top: 10px;
-	font-family: Helvetica Neue;
+	font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
 	padding-bottom: 5px;
 	transition: .5s;
 	font-size: 100%;
@@ -9,7 +9,8 @@ header{
 body{
 	display: flex;
 	justify-content: space-around;
-	background: pink;
+	background-image: url(../img/desk.png);
+	background-repeat: no-repeat;
 }
 
 nav{
@@ -35,26 +36,13 @@ nav a{
 	border-width: 2px;
 }
 
-main{
-	border-style: solid;
-	border-width: 1px;
-	width: 612px;
-	height: 700px;
-	padding: 40px;
-	padding-top: 60px;
-	padding-left: 90px;
-}
-#container{
-	border-left: solid;
-}
-
 #home:visted, #bash:visited, #github:visited{
 	color: black;
 }
 
 #home:hover, #bash:hover, #github:hover{
-	background: darkgray;
-	color: #ebd7fa;
+	background: white;
+	color: black;
 }
 
 
@@ -63,11 +51,11 @@ main{
 	font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
 	width: 612px;
 	height: 700px;
-margin-top: 30px;
+	margin-top: 30px;
 	padding: 6px 5px 4px 42px;
 	position: relative;
 	color: #444;
-	line-height: 20px;
+	line-height: 24px;
 	border: 1px solid #d2d2d2;
 	background: #fff;
 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;

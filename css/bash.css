@@ -5,14 +5,14 @@ h1{
 	white-space: nowrap;
 	margin: 0 auto;
 	animation: 
-	typing 3s steps(40, end),
+	typing 3.5s steps(40, end),
 	blink-caret .75s step-end infinite;
 	padding-top: 10px;
 }
 
 @keyframes typing{
 	from { width: 0 }
-	to { width: 15%; }
+	to { width: 20%; }
 }
 
 @keyframes blink-caret {
@@ -22,7 +22,7 @@ h1{
 
 header{
 	padding-top: 10px;
-	font-family: Helvetica Neue;
+	font-family: Courier;
 	padding-bottom: 5px;
 	transition: .5s;
 	font-size: 150%;

@@ -1,27 +1,67 @@
-header{
-	font-family: Helvetica Neue;
-	text-align: center;
-	padding-top: 20px;
+body{
+	font-family: 'Josefin Slab', serif;
+	font-size: 120%;
+	line-height: 35px;
+	background: #f9cfd5;
+	font-weight: 1000;
 }
 
 nav{
+	display: flex;
+	justify-content: space-around;
 	padding-top: 20px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+}
+
+/*postage stamp by icon 54 from the Noun Project*/
+#letter{
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-top-width: 0px;
+	overflow: auto;
+	padding: 20px;
+	width: 900px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	background-image: url(../img/border.png);
+	background-size: cover;
+	opacity: .8;
+}
+
+#post{
+	width: 900px;
+	padding: 20px;
+	padding-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	background: #FBFDFA;
+	opacity: .8;
 }
 
 nav a{
 	transition: 1s;
 	text-decoration: none;
 	font-size: 150%;
-	border-style: solid;
-	padding: 20px 40px 20px 40px;
-	border-radius: 10px;
 }
 
-#home:visted, #git:visited, #github:visited{
+#home:visted, #git:visited, #bash:visited{
 	color: black;
 }
 
-#home:hover, #git:hover, #github:hover{
+#home:hover, #git:hover, #bash:hover{
 	color: #ebd7fa;
-	border-radius: 50px;
 }
