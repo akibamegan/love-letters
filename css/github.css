@@ -24,11 +24,14 @@ main{
 	border-width: 1px;
 	border-top-width: 0px;
 	overflow: auto;
-	padding: 20px;
+	padding-left: 140px;
+	padding-right: 145px;
+	padding-top: 150px;
 	width: 900px;
 	height: auto;
 	text-align: center;
-	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
 	background-image: url(../img/border.png);
 	background-size: cover;
 	opacity: .8;

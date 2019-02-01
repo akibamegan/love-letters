@@ -69,6 +69,7 @@ main{
 body{
 	background-image: url(../img/bash-background.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
 
 }
 
